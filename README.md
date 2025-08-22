@@ -12,7 +12,7 @@ To receive credit for this lab, show your work to the TA during recitation.
 ## Getting started
 Clone the starter code from this Git repository
 
-The code implements a flask web application that receives API requests to analyze an image and return information about the image. To analyze the image and return this image, you should implement a call to the [Gemini API](https://ai.google.dev/gemini-api/docs). We use the Gemini Developer API and its provided [Python libraries](https://pypi.org/project/google-genai/) to abstract the lower level details when making the API calls. 
+The code implements a flask web application that receives API requests to analyze an image and return information about the image. To analyze the image and return information about this image, you should implement a call to the [Gemini API](https://ai.google.dev/gemini-api/docs). We use the Gemini Developer API and its provided [Python libraries](https://pypi.org/project/google-genai/) to abstract the lower level protocol details when making the API calls. 
 
 Install the dependencies in the `requirements.txt` file with pip or similar. Replace the API key with your own in [analyze.py](./analyze.py). To set up the flask server, just run `python3 app.py`. The system should try to analyze an example image and report the results when you send a POST request with an attached binary of the image to http://localhost:3000/api/v1/analyze
 

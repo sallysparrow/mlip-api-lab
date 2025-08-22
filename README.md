@@ -8,7 +8,7 @@ To receive credit for this lab, show your work to the TA during recitation.
 - [ ] Commit your code without committing your credentials. Explain to the TA why hard-coding credentials is a bad idea, and explain any remedial steps you might take should credentials accidentally be leaked. 
 
 ## Getting started
-Clone the starter code from this Git repository
+Clone the starter code from this Git repository: https://github.com/KaushikKoirala/mlip-api-lab
 
 The code implements a flask web application that receives API requests to analyze an image and return information about the image. To analyze the image and return information about this image, you should implement a call to the [Gemini API](https://ai.google.dev/gemini-api/docs). We use the Gemini Developer API and its provided [Python libraries](https://pypi.org/project/google-genai/) to abstract the lower level protocol details when making the API calls. 
 

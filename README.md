@@ -3,11 +3,9 @@ In homework I1 you will use third-party LLM APIs, and in the group project you w
 To receive credit for this lab, show your work to the TA during recitation.
 
 ## Deliverables
-- [ ] Retrieve an API Key for Gemini
-- [ ] Explain to the TA why hard-coding credentials is a bad idea. Commit your code to GitHub without committing your credentials.
-- [ ] Explain to the TA any remedial steps you might take should credentials accidentally be leaked to the GitHub repo.
-- [ ] Implement the call to the Gemini API to have the LLM analyze the image in some way. 
+- [ ] Retrieve an API Key for Gemini and implement the call to the Gemini API to have the LLM analyze the image in some way. 
 - [ ] Run the API endpoint with the Gemini API call implemented and demonstrate that it works using an example invocation.
+- [ ] Commit your code without committing your credentials. Explain to the TA why hard-coding credentials is a bad idea, and explain any remedial steps you might take should credentials accidentally be leaked. 
 
 ## Getting started
 Clone the starter code from this Git repository

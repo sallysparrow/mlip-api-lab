@@ -3,7 +3,7 @@ from PIL import Image
 import io
 import os
 
-gemini_api_key = 'HARDCODED_GEMINI_API_KEY_HERE'
+gemini_api_key = 'AIzaSyB8ngAGTlAd1UNmLb_Ln4K_wN901rfRDAk'
 gemini_client = genai.Client(api_key=gemini_api_key)
 
 def get_llm_response(image_data: bytes) -> str:
